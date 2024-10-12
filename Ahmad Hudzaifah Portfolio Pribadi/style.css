@@ -1,0 +1,340 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    background-color: palegoldenrod;
+}
+
+
+
+
+
+
+
+
+/* HEADER */
+header {
+    background-color: darkslategray;
+    padding: 0%;
+    border: 2px solid skyblue;
+    text-align: center;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px orangered, 0 0 15px orange;
+    margin-bottom: 4px;
+    box-shadow: 0 0 5px blue, 0 0 10px cyan;
+}
+
+
+
+
+
+/* NAVIGASI */
+nav.navbar {
+    background-color: darkslategrey;
+    padding: 12px;
+    border: 2px solid skyblue;
+    box-shadow: 0 0 5px blue, 0 0 10px cyan;
+    margin-bottom: 70px;
+    position: sticky;
+    top:1px;
+}
+
+div.navbar-container {
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+ul.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a:hover {
+    color: yellow;
+    text-shadow: 0 0 10px orangered, 0 0 15px orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 768px) {
+    div.logo img {
+      width: 100px;
+      height: auto;
+    }
+  
+    button.nav-toggle {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+  }
+  ul.nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background-color: white;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-toggle:focus + .nav-links,
+  .nav-links:hover {
+      display: flex;
+  }
+  
+  .nav-links li {
+      margin: 10px 0;
+  }
+
+  section#about-container {
+    display: block;
+  } */
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER */
+section#container {
+    width: 85%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+section#text {
+    margin-right: 30px;
+}
+h3.hero-text {
+    color: black;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+h1.hero-text {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+img#hero-image {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 750px auto;
+    box-shadow: 0 0 10px red,0 0 15px palevioletred, 0 0 20px pink;
+}
+
+
+@media only screen and (max-width: 768px) {
+    section#container {
+        display: grid;
+    }
+
+    section#text {
+        text-align: center;
+        margin: 0px;
+    }
+
+    section#text h3 {
+        margin: 0px;
+    }
+
+    section#text h1 {
+        margin-bottom: 30px;
+    }
+    img#hero-image {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ABOUT */
+section#about {
+    margin: 100px auto;
+}
+
+section#about h2 {
+    text-align: center;
+}
+
+section#about-container {
+    display: flex;
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+div.about-box {
+    width: 50%;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h5.about-text {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* HOBI */
+section#hobby {
+    width: 85%;
+    margin: 100px auto;
+}
+
+section#hobby h2 {
+    text-align: center;
+}
+
+section#hobby-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    flex-direction: row;
+}
+
+section.box {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    padding: 0px 20px;
+}
+
+
+h5.hobby-box {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BAR KONTAK */
+section#contact {
+    margin-bottom: 4px;
+}
+section#contact h2 {
+    text-align: center;
+}
+
+section.contact-section {
+    display: flex;
+    gap: 18px;
+}
+
+div.contact-box {
+    background-color: darkslategrey;
+    padding: 16px;
+    width: 20%;
+    border: 2px solid skyblue;
+    box-shadow: 0 0 5px blue, 0 0 10px cyan;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+div.contact-box:hover {
+    box-shadow: 0 0 10px blue, 0 0 15px cyan;
+}
+
+div.contact-box :hover {
+    border-color: orange;
+}
+
+
+
+
+footer {
+    text-align: center;
+    color: orange;
+    background-color: darkslategray;
+    padding: 12px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blue, 0 0 10px cyan;
+}
+
+/* @media screen and (max-width: 600px) {
+    #hobby-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    #container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: lightseagreen;
+    }*/
